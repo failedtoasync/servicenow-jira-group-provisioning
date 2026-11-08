@@ -16,11 +16,6 @@ The solution uses ServiceNow catalog capabilities, workflow automation, and Jira
 
 1. [Business Context & Solution](#1-business-context--solution)
 2. [System Architecture & Workflow](#2-system-architecture--workflow)
-   - [Jira Group Provisioning Request](#jira-group-provisioning-request)
-   - [Group Validation & Approval](#group-validation--approval)
-   - [Jira Group Creation & Exception Handling](#jira-group-creation--exception-handling)
-   - [Request Lifecycle & Notifications](#request-lifecycle--notifications)
-   - [Integration & Access Security](#integration--access-security)
 3. [Testing & Verification](#3-testing--verification)
 4. [Repository File Index](#4-repository-file-index)
 
