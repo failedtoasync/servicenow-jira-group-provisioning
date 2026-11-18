@@ -24,7 +24,6 @@ The solution uses ServiceNow catalog capabilities, workflow automation, and Jira
 ## 1. Business Context & Solution
 
 Creating Jira groups often requires coordination with Jira administrators to verify existing groups, obtain approval, and complete provisioning. Without a structured request process, tracking requests and handling provisioning issues can become difficult.
-
 **Jira Group Provisioning** provides a centralized Service Catalog process for requesting new Jira groups. Flow Designer validates group availability, manages approval, and uses Jira Spoke to automate group creation, with a defined process for handling provisioning failures.
 
 ## 2. System Architecture & Workflow
@@ -52,8 +51,6 @@ The solution connects ServiceNow with Jira through the Jira Spoke integration. A
 ## 3. Testing & Verification
 
 Testing covers the main provisioning scenarios, including successful group creation, duplicate detection, approval rejection, Jira creation failures, and support intervention outcomes.
-
-Detailed test scenarios and supporting screenshots are documented in [Testing and Evidence](testing-and-evidence/README.md).
 
 ## 4. Repository File Index
 
