@@ -6,7 +6,9 @@ The `Jira Group Provisioning` flow manages the fulfillment of Jira group creatio
 
 The integration uses Jira Spoke to perform group lookup and creation in Jira. A dedicated Connection and Credential Alias, HTTP connection, and credential were configured to establish the connection with Jira Cloud.
 
-### Request Trigger & Variable Retrieval 
+## Jira Group Provisioning Workflow
+
+### Request Trigger & Variable Retrieval
 
 The flow uses a Service Catalog trigger. When a request is submitted, the flow retrieves the submitted catalog variables using the **Get Catalog Variables** action, making the request information available for subsequent validation, approval, and provisioning steps.
 
@@ -29,4 +31,3 @@ If Jira group creation cannot be completed automatically, the request remains in
 ## Notifications
 
 The flow includes automated notifications to keep requesters and approvers informed of request progress, approval decisions, and provisioning outcomes.
-
