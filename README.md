@@ -42,7 +42,7 @@ Jira Spoke integration enables automated group creation in Jira following approv
 
 ### Request Lifecycle & Notifications
 
-The solution uses Requested Item (RITM) states to track each request from submission through its final outcome, providing visibility into approval, provisioning, and support activities. Automated notifications keep requesters informed of important decisions and fulfillment outcomes.
+The solution uses Requested Item (RITM) states to track each request from submission through its final outcome, providing visibility into approval, provisioning, and support activities. Automated notifications keep requesters and approvers informed of important decisions and fulfillment outcomes.
 
 ### Integration & Access Security
 
